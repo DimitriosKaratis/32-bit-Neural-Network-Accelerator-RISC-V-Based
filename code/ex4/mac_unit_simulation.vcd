@@ -1,0 +1,121 @@
+$date
+	Sat Jan 17 20:19:58 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mac_unit_tb $end
+$var wire 1 ! zero_mul $end
+$var wire 1 " zero_add $end
+$var wire 32 # total_result [31:0] $end
+$var wire 1 $ ovf_mul $end
+$var wire 1 % ovf_add $end
+$var reg 32 & op1 [31:0] $end
+$var reg 32 ' op2 [31:0] $end
+$var reg 32 ( op3 [31:0] $end
+$scope module dut $end
+$var wire 32 ) op1 [31:0] $end
+$var wire 32 * op2 [31:0] $end
+$var wire 32 + op3 [31:0] $end
+$var wire 1 ! zero_mul $end
+$var wire 1 " zero_add $end
+$var wire 32 , total_result [31:0] $end
+$var wire 1 $ ovf_mul $end
+$var wire 1 % ovf_add $end
+$var wire 32 - mul_res [31:0] $end
+$scope module alu_add $end
+$var wire 4 . alu_op [3:0] $end
+$var wire 32 / op2 [31:0] $end
+$var wire 1 " zero $end
+$var wire 32 0 op1 [31:0] $end
+$var reg 1 % ovf $end
+$var reg 32 1 result [31:0] $end
+$upscope $end
+$scope module alu_mul $end
+$var wire 4 2 alu_op [3:0] $end
+$var wire 32 3 op1 [31:0] $end
+$var wire 32 4 op2 [31:0] $end
+$var wire 1 ! zero $end
+$var reg 1 $ ovf $end
+$var reg 32 5 result [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 5
+b11 4
+b10 3
+b110 2
+b1010 1
+b110 0
+b100 /
+b100 .
+b110 -
+b1010 ,
+b100 +
+b11 *
+b10 )
+b100 (
+b11 '
+b10 &
+0%
+0$
+b1010 #
+0"
+0!
+$end
+#10000
+0"
+b11111111111111111111111111110110 #
+b11111111111111111111111111110110 ,
+b11111111111111111111111111110110 1
+0!
+b11111111111111111111111111101100 -
+b11111111111111111111111111101100 0
+b11111111111111111111111111101100 5
+b1010 (
+b1010 +
+b1010 /
+b100 '
+b100 *
+b100 4
+b11111111111111111111111111111011 &
+b11111111111111111111111111111011 )
+b11111111111111111111111111111011 3
+#20000
+0"
+b1 #
+b1 ,
+b1 1
+1$
+1!
+b0 -
+b0 0
+b0 5
+b1 (
+b1 +
+b1 /
+b1000000000000000000000000000000 &
+b1000000000000000000000000000000 )
+b1000000000000000000000000000000 3
+#30000
+0"
+b110010 #
+b110010 ,
+b110010 1
+0$
+b110010 (
+b110010 +
+b110010 /
+b1100100 '
+b1100100 *
+b1100100 4
+b0 &
+b0 )
+b0 3
+#50000

@@ -1,0 +1,137 @@
+$date
+	Sat Jan 17 20:10:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module regfile_tb $end
+$var wire 32 ! readData4 [31:0] $end
+$var wire 32 " readData3 [31:0] $end
+$var wire 32 # readData2 [31:0] $end
+$var wire 32 $ readData1 [31:0] $end
+$var reg 1 % clk $end
+$var reg 4 & readReg1 [3:0] $end
+$var reg 4 ' readReg2 [3:0] $end
+$var reg 4 ( readReg3 [3:0] $end
+$var reg 4 ) readReg4 [3:0] $end
+$var reg 1 * resetn $end
+$var reg 1 + write $end
+$var reg 32 , writeData1 [31:0] $end
+$var reg 32 - writeData2 [31:0] $end
+$var reg 4 . writeReg1 [3:0] $end
+$var reg 4 / writeReg2 [3:0] $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 4 0 readReg1 [3:0] $end
+$var wire 4 1 readReg2 [3:0] $end
+$var wire 4 2 readReg3 [3:0] $end
+$var wire 4 3 readReg4 [3:0] $end
+$var wire 1 * resetn $end
+$var wire 1 + write $end
+$var wire 32 4 writeData1 [31:0] $end
+$var wire 32 5 writeData2 [31:0] $end
+$var wire 4 6 writeReg1 [3:0] $end
+$var wire 4 7 writeReg2 [3:0] $end
+$var wire 32 8 readData4 [31:0] $end
+$var wire 32 9 readData3 [31:0] $end
+$var wire 32 : readData2 [31:0] $end
+$var wire 32 ; readData1 [31:0] $end
+$var integer 32 < i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+b0 7
+b0 6
+b0 5
+b0 4
+b11 3
+b10 2
+b1 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+0+
+1*
+b11 )
+b10 (
+b1 '
+b0 &
+0%
+bx $
+bx #
+bx "
+bx !
+$end
+#5000
+b0 !
+b0 8
+b0 "
+b0 9
+b0 #
+b0 :
+b0 $
+b0 ;
+b10000 <
+0*
+1%
+#10000
+1*
+0%
+#15000
+b10111011101110111011101110111011 -
+b10111011101110111011101110111011 5
+b110 /
+b110 7
+b10101010101010101010101010101010 ,
+b10101010101010101010101010101010 4
+b101 .
+b101 6
+1+
+1%
+#20000
+0%
+#25000
+b10111011101110111011101110111011 #
+b10111011101110111011101110111011 :
+b10101010101010101010101010101010 $
+b10101010101010101010101010101010 ;
+1%
+b110 '
+b110 1
+b101 &
+b101 0
+0+
+#30000
+0%
+#35000
+b10010001101000101011001111000 "
+b10010001101000101011001111000 9
+b10010001101000101011001111000 ,
+b10010001101000101011001111000 4
+b1010 .
+b1010 6
+1+
+b1010 (
+b1010 2
+1%
+#40000
+0%
+#45000
+1%
+#50000
+0%
+#55000
+1%
+#57000
